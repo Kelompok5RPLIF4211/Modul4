@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Pelanggar</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<style type="text/css">
+		#login_pelanggar{
+			left: 50%;
+			top: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+		}
+
+		body
+		{
+			background-color: #cacde8;
+		}
+		
+		#btnLogin{
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div id = "login_pelanggar">
+			<h2><center>Login Pelanggar</center></h2>
+			<br>
+			<form id ="loginPelanggar">
+				<div class="mb-3">
+					<label for="Notilang" class="form-label">No.Tilang</label>
+					<input type="notilang" class="form-control" id="notilang" aria-describedby="notilang">
+				</div>
+				<div id="btnLogin" class="container">
+					<button type="submit" class="btn btn-primary">Login</button>
+				</div>
+				
+			</form>
+		</div>
+	</div>  
+</body>
+</html>
